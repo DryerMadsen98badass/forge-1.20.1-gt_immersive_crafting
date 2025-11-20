@@ -36,6 +36,7 @@ public class immersive_crafting {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("ImmersivCrafting mod: Common setup ferdig");
     }
