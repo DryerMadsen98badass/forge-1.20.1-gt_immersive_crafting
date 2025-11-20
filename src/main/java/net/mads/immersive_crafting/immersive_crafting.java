@@ -27,6 +27,7 @@ public class immersive_crafting {
         AllItems.register(modEventBus);
         AllBlocks.register(modEventBus);
         AllRecipes.register();
+        AllRecipeTypes.register();
     //    AllRecipeTypes.register();
 
         // Event-listeners
